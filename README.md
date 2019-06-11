@@ -20,7 +20,7 @@ npm run build
  widget.getArr()
  ```
 
-# 例子
+## 例子
 ```
 <!DOCTYPE html>
 <html lang="zh-CN">
@@ -40,4 +40,13 @@ npm run build
   console.log(JSON.stringify(arr,null,2))
 </script>
 </html> 
+```
+## 方法2、node安装
+```
+npm i git+https://github.com/bearhotel515/npm-widget.git 
+```
+## 例子
+```
+import widget from 'widget'
+widget.print('test widget')
 ```
